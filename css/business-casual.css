@@ -25,7 +25,6 @@ h6 {
 
 p {
   line-height: 1.75;
-  
 }
 
 .text-faded {
@@ -71,7 +70,6 @@ p {
   display: block;
   font-size: 3rem;
   font-weight: 100;
-  text-align: center;
 }
 
 .bg-faded {
@@ -84,7 +82,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #AF601A;
+  color: #17a2b8;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -119,6 +117,10 @@ p {
 
 .intro {
   position: relative;
+}
+
+.intro .intro-img {
+  width: 50% !important;
 }
 
 @media (min-width: 992px) {
@@ -215,7 +217,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #AF601A;
+  color: #17a2b8;
 }
 
 @media (min-width: 992px) {
@@ -234,11 +236,11 @@ p {
 }
 
 .text-primary {
-  color: #AF601A !important;
+  color: #17a2b8 !important;
 }
 
 .bg-primary {
-  background-color: #AF601A !important;
+  background-color: #17a2b8 !important;
 }
 
 .btn {
@@ -257,4 +259,14 @@ p {
 
 .font-weight-light {
   font-weight: 100 !important;
+}
+
+.food-truck-links {
+  text-decoration: none;
+  color: brown;
+}
+
+.food-truck-links:hover {
+  text-decoration: none;
+  color: black;
 }
